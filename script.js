@@ -14,13 +14,13 @@ const animalImage = document.getElementById("animal");
 // Cat
 function showCat() {
   title.textContent = "This is a Cat!";
-  animalImage.src = "https://placekitten.com/300/300"; // kitten image
+  animalImage.src = "Images/Olimar.png";
   animalImage.alt = "A cute kitten";
 }
 
 // Dog
 function showDog() {
   title.textContent = "This is a Dog!";
-  animalImage.src = "https://images.dog.ceo/breeds/labrador/n02099712_5641.jpg"; // dog image
+  animalImage.src = "Images/Ekko.jpeg";
   animalImage.alt = "A happy dog";
 }
